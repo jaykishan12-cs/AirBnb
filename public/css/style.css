@@ -1,0 +1,219 @@
+body{
+    
+    font-family: "Plus Jakarta Sans", sans-serif !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.container
+{
+    flex: 1;
+}
+/* Navbar (optional if you're using one) */
+.navbar {
+    height: 5rem;
+    background-color: white;
+}
+
+/* Optional globe icon */
+.fa-earth-americas {
+    color: red;
+    margin-right: 3px;
+    font-size: 1.7rem;
+}
+
+/* Brand text in navbar */
+.navbar-brand {
+    font-size: 25px !important;
+    margin-bottom: 4px !important;
+    margin-left: 10px !important;
+    color: red !important;
+}
+
+/* Footer container */
+.f-info {
+    text-align: center;
+    display: flex;
+    background-color: rgb(235, 229, 229);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+/* Social icons row */
+.f-info-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5rem; /* increased space below */
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.f-info-social i {
+    font-size: 1.5rem;
+    margin: 0 0.6rem;
+}
+
+/* Brand text row */
+.f-info-brand {
+    margin-bottom: 1rem; /* increased space below */
+    font-size: 1rem;
+}
+
+/* Footer links row */
+.f-info-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+    margin-top: 1px;
+     /* space between links */
+}
+
+.f-info-links a {
+    text-decoration: none;
+    color: #222222;
+}
+
+.f-info-links a:hover {
+    color: red;
+}
+
+.f-info-social a i {
+    color: #333; /* or any color you want */
+    transition: color 0.3s ease;
+}
+
+.f-info-social a:hover i {
+    color: red; /* or any hover color */
+}
+
+/* 
+card */
+.row
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* .row {
+  display: flex;
+  justify-content: space-between;
+} */
+ 
+.listing-card
+{
+    border: none !important;
+    margin-bottom: 2rem !important;
+    /* margin-left: 25px !important; */
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between; */
+}
+
+.card-img-top 
+{
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+
+
+.card-body
+{
+    padding: 0 !important; 
+   
+}
+
+
+.card-text b
+{
+    font-weight: 600 !important;
+}
+
+.listing-card a{
+    font-weight: 400 !important;
+    text-decoration: none !important;
+}
+
+
+/* card hover effect */
+
+.card-img-overlay
+{
+    opacity: 0;
+}
+
+.card-img-overlay:hover
+{
+    opacity: 0.2;
+    background-color: white;
+}
+
+
+/* new lisitng form */
+.btn
+{
+    border: 0 !important;
+    background-color: red !important;
+}
+
+
+/* show page */
+.show-img
+{
+    height: 60vh !important;
+    width: 700px !important;
+    margin-bottom: 18px;
+}
+
+.show-btns
+{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 70px;
+}
+.btn-red
+{
+    color: white !important;
+    background-color: black !important;
+}
+
+
+/* review section */
+.rbtn
+{
+    background-color:black !important;
+}
+
+.card
+{
+    padding: 15px;
+    /* width: 50%; */
+    margin: 8px;
+    
+}
+
+
+/* map */
+
+#map
+{
+    height: 400px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* index image */
+.custom-img{
+    width: 100% !important; /* or set specific width like 20rem */
+    height: 20rem;
+    object-fit: cover;
+    border-radius: 10px;
+}
