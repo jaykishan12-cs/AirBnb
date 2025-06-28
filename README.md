@@ -5,18 +5,51 @@ A fully functional Airbnb clone that lets users create, edit, and manage propert
 
 ## TECH STACK USED
 
-### FRONTEND
+### Frontend
 - HTML
 - CSS
 - JavaScript
 - EJS
 
-### BACKEND
+### Backend
 - NodeJS
 - ExpressJS
 
-### DATABASE
+### DataBase
 - MongoDB
 
 ## SCREENSHOTS
+
+### 🏠 Home Page
+![Home Page](public/screenshots/home.png)
+
+---
+
+### 🔐 Login Page
+![Login Page](public/screenshots/login.png)
+
+---
+
+### 🗺️ Map View
+![Map View](public/screenshots/map.png)
+
+---
+
+### ➕ Add New Listing
+![New Listing](public/screenshots/new.png)
+
+---
+
+### 📝 Reviews Section
+![Reviews](public/screenshots/reviews.png)
+
+---
+
+### 📄 Show Listing Page
+![Show Listing](public/screenshots/show.png)
+
+---
+
+### 🧾 Signup Page
+![Signup](public/screenshots/signup.png)
 
