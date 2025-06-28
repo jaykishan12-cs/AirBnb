@@ -53,3 +53,36 @@ A fully functional Airbnb clone that lets users create, edit, and manage propert
 ### 🧾 Signup Page
 ![Signup](public/screenshots/signup.png)
 
+---
+
+## 🚀 Getting Started
+
+Follow these steps to clone and run the project locally:
+
+### 1) Clone the repo
+```bash
+git clone https://github.com/jaykishan12-cs/AirBnb.git
+cd AirBnb
+```
+### 2) Install Dependencies
+```bash
+npm install
+```
+
+### 3) Set Up Environment Variables
+Create a .env file in the root directory and add your environment variables. Example:
+
+```env
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
+```
+
+### 4)Run the Project
+```bash
+npm app.js
+```
+
+
+
+
+
