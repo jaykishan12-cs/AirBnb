@@ -1,7 +1,17 @@
 # AIRBNB WEBSITE FULL STACK CLONE
 
-## DESCRIPTION
-A fully functional Airbnb clone that lets users create, edit, and manage property listings, leave and view reviews, and browse available stays through an interactive map interface. Designed with a clean UI and a focus on user experience.
+## 📄 Description
+
+This project is a fully functional clone of Airbnb, built to replicate the core functionalities of the platform. Users can:
+
+- 🏠 Create, edit, and manage their own property listings  
+- ✍️ Leave and view reviews on listings  
+- 📍 Explore stays using an interactive map  
+- 🔐 Access protected features like listing creation only after logging in  
+- ✏️ Edit/delete listings only if they are the owner  
+
+Designed with a clean UI and a focus on user experience.
+
 
 ## 🧰 Tech Stack Used
 
