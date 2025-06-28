@@ -40,24 +40,27 @@ Designed with a clean UI and a focus on user experience.
 
 Follow these steps to clone and run the project locally:
 
-### 1) Clone the repo
+### 1️⃣ Clone the Repository
 ```bash
 git clone https://github.com/jaykishan12-cs/AirBnb.git
 cd AirBnb
 ```
-### 2) Install Dependencies
+
+### 2️⃣ Install Dependencies
 ```bash
 npm install
 ```
 
-### 3) Set Up Environment Variables
-Create a .env file in the root directory and add your environment variables. Example:
+### 3️⃣ Set Up Environment Variables
+
+Create a `.env` file in the root directory and add the following:
 
 ```env
 MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
 ```
 
-### 4)Run the Project
+### 4️⃣ Run the Project
 ```bash
 npm app.js
 ```
