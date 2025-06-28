@@ -74,7 +74,6 @@ Create a .env file in the root directory and add your environment variables. Exa
 
 ```env
 MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret
 ```
 
 ### 4)Run the Project
