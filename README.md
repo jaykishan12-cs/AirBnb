@@ -18,6 +18,33 @@ A fully functional Airbnb clone that lets users create, edit, and manage propert
 ### DataBase
 - MongoDB
 
+
+## 🚀 Getting Started
+
+Follow these steps to clone and run the project locally:
+
+### 1) Clone the repo
+```bash
+git clone https://github.com/jaykishan12-cs/AirBnb.git
+cd AirBnb
+```
+### 2) Install Dependencies
+```bash
+npm install
+```
+
+### 3) Set Up Environment Variables
+Create a .env file in the root directory and add your environment variables. Example:
+
+```env
+MONGO_URI=your_mongodb_connection_string
+```
+
+### 4)Run the Project
+```bash
+npm app.js
+```
+
 ## SCREENSHOTS
 
 ### 🏠 Home Page
@@ -55,31 +82,27 @@ A fully functional Airbnb clone that lets users create, edit, and manage propert
 
 ---
 
-## 🚀 Getting Started
+## ✨ Features
 
-Follow these steps to clone and run the project locally:
+- 🔐 **User Authentication**  
+  Users can sign up, log in, and log out securely.
 
-### 1) Clone the repo
-```bash
-git clone https://github.com/jaykishan12-cs/AirBnb.git
-cd AirBnb
-```
-### 2) Install Dependencies
-```bash
-npm install
-```
+- 🧾 **Protected Actions**  
+  Only logged-in users can add new property listings.
 
-### 3) Set Up Environment Variables
-Create a .env file in the root directory and add your environment variables. Example:
+- 🛠️ **Listing Management**  
+  - Users can **create** listings with title, description, location, price, and image.
+  - Only the **owner** of a listing can edit or delete it.
 
-```env
-MONGO_URI=your_mongodb_connection_string
-```
+- 🗺️ **Interactive Map Integration**  
+  Listings are displayed with an interactive map for better navigation.
 
-### 4)Run the Project
-```bash
-npm app.js
-```
+- 💬 **Reviews System**  
+  Logged-in users can leave and view reviews on listings.
+
+- 🖼️ **Clean & Responsive UI**  
+  Fully responsive design optimized for both desktop and mobile.
+
 
 
 
