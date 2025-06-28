@@ -3,20 +3,27 @@
 ## DESCRIPTION
 A fully functional Airbnb clone that lets users create, edit, and manage property listings, leave and view reviews, and browse available stays through an interactive map interface. Designed with a clean UI and a focus on user experience.
 
-## TECH STACK USED
+## 🧰 Tech Stack Used
 
-### Frontend
-- HTML
-- CSS
-- JavaScript
-- EJS
+### 🌐 Frontend
+<p align="left">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/EJS-8B4513?logo=ejs&logoColor=white" />
+</p>
 
-### Backend
-- NodeJS
-- ExpressJS
+### 🔧 Backend
+<p align="left">
+  <img src="https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/Express.js-000000?logo=express&logoColor=white" />
+</p>
 
-### DataBase
-- MongoDB
+### 🗄️ Database
+<p align="left">
+  <img src="https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white" />
+</p>
+
 
 
 ## 🚀 Getting Started
