@@ -62,7 +62,7 @@ JWT_SECRET=your_jwt_secret
 
 ### 4️⃣ Run the Project
 ```bash
-npm app.js
+node app.js
 ```
 
 ## SCREENSHOTS
