@@ -8,7 +8,7 @@ main()
 .catch(err => console.log(err));
 
 async function main() {
-  await mongoose.connect('mongodb+srv://jaykishan:zinniaa6@cluster0.vcm0u8c.mongodb.net/airbnb');
+  await mongoose.connect(process.env.ATLASDB_URL);
 }
 
 const initDB = async () =>
